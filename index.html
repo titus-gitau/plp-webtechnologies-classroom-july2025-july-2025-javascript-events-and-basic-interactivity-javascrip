@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interactive Page Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>My Interactive Web Page</h1>
+
+  <!-- Event Handling  -->
+  <button id="helloBtn">Say Hello</button>
+  <p id="helloText"></p>
+
+  <!-- Interactive Elements -->
+  <h2>Change Theme</h2>
+  <button id="modeBtn">Switch theme Mode</button>
+
+  <h2>Counter</h2>
+  <p>Value: <span id="count">0</span></p>
+  <button id="addBtn">Add</button>
+  <button id="clearBtn">Clear</button>
+
+  <!-- Form section -->
+  <h2>Register Form</h2>
+  <form id="myForm">
+    <label>Name: <input type="text" id="name"></label>
+    <p id="nameErr" class="err"></p>
+
+    <label>Email: <input type="text" id="email"></label>
+    <p id="emailErr" class="err"></p>
+
+    <label>Password: <input type="password" id="password"></label>
+    <p id="passErr" class="err"></p>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <p id="formMsg"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>

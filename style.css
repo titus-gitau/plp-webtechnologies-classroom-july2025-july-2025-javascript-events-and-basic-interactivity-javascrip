@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: white;
+  color: black;
+}
+
+.dark {
+  background: black;
+  color: white;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+.err {
+  color: red;
+  font-size: small;
+}
